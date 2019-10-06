@@ -16,11 +16,13 @@ class AlbumList extends Component {
         <h1 className="album-list-title">ALBUMS</h1>
         <ul className="album-list">
           {stateLength !== 0 && this.props.albums.map((albumItem, index) => {
-            return (<AlbumItem
+            return (
+            <AlbumItem
               passClick={this.albumClicked}
               key={index}
               albumItem={albumItem}>
-            </AlbumItem>)
+            </AlbumItem>
+            )
           })}
         </ul> 
       </div>

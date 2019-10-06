@@ -12,7 +12,7 @@ class SongItem extends Component {
           onClick = { () => {
             this.props.passClick(albumItem);
           }}>
-          <button>{band + ' : ' + album}</button>
+          {band + ' : ' + album}
           { <ul className="song-list">
           {albumItem.opened && songs.map((item, index) => {
             return (<li

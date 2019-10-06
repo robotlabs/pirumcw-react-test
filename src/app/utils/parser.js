@@ -8,6 +8,7 @@ export const parserData = (data) => {
   let index = 0
   dataKey.forEach((band) => {
     band.values.forEach((album) => {
+      //** add opened boolean */
       const albumParsed = {
         opened: false,
         id: index,

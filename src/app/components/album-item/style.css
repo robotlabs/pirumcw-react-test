@@ -3,27 +3,21 @@
   padding: 5px;
   margin-bottom: 5px;
   background-color: #273469;
+  color: #ff0099;
   cursor: pointer;
   transition: 400ms background-color linear;
 }
-.box-album-item button{
-  color: #C2E812;
-
-}
 .box-album-item:hover{
-  background-color: yellow;
+  background-color: #ff0099;
+  color: #ffff00;
 }
-.box-album-item:hover button{
-  color: black;
-}
-
 
 .box-subitem{
   background-color: red;
   color: white;
 }
 .box-album-item:hover .box-subitem{
-  color: black;
+  color:#ffff00;
 }
 
 .song-list{
