@@ -1,16 +1,14 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './style.css';
 
-class SongItem extends Component {
-  
-  render() {
-    const {albumItem} = this.props
+const SongItem = (props) => {
+  const {albumItem, passClick} = props
     const {band, album, songs} = albumItem
     return (
       <li
           className='box-album-item'
           onClick = { () => {
-            this.props.passClick(albumItem);
+            passClick(albumItem);
           }}>
           {band + ' : ' + album}
           { <ul className="song-list">
@@ -25,7 +23,6 @@ class SongItem extends Component {
           <div className="box-author">{}</div>
       </li>
     );
-  }
-}
+};
 
 export default SongItem;
