@@ -6,8 +6,8 @@ export const parserData = (data) => {
     .entries(data);
   const albums = []
   let index = 0
-  dataKey.map((band) => {
-    band.values.map((album) => {
+  dataKey.forEach((band) => {
+    band.values.forEach((album) => {
       const albumParsed = {
         opened: false,
         id: index,

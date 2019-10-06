@@ -1,11 +1,14 @@
+import {ADD_DATA} from '../constants/action-types'
 const initialState = [];
-const test = (state = initialState, action) => {
+const addData = (state = initialState, action) => {
   switch (action.type) {
-    case 'TEST':
-      return state
+    case ADD_DATA:
+      return [
+        ...action.data
+      ]
     default:
       return state
   }
 }
 
-export default test
+export default addData
