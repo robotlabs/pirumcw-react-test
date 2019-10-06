@@ -1,0 +1,8 @@
+.box-album-item{
+  position: relative;
+  padding: 5px;
+  margin-bottom: 5px;
+  background-color: #273469;
+  cursor: pointer;
+  transition: 400ms background-color linear;
+}
