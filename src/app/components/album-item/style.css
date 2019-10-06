@@ -6,14 +6,14 @@
   cursor: pointer;
   transition: 400ms background-color linear;
 }
-.box-album-item a{
+.box-album-item button{
   color: #C2E812;
 
 }
 .box-album-item:hover{
   background-color: yellow;
 }
-.box-album-item:hover a{
+.box-album-item:hover button{
   color: black;
 }
 
