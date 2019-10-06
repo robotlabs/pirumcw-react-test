@@ -6,3 +6,29 @@
   cursor: pointer;
   transition: 400ms background-color linear;
 }
+.box-album-item a{
+  color: #C2E812;
+
+}
+.box-album-item:hover{
+  background-color: yellow;
+}
+.box-album-item:hover a{
+  color: black;
+}
+
+
+.box-subitem{
+  background-color: red;
+  color: white;
+}
+.box-album-item:hover .box-subitem{
+  color: black;
+}
+
+.song-list{
+  margin: 0;
+  padding: 0;
+  margin-top: 20px;
+  list-style: none;
+}
