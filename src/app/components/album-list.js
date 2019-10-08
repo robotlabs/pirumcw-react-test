@@ -10,7 +10,8 @@ const AlbumList = (props) => {
     console.log('album id', album.id)
     dispatch(toggleAlbum(album.id))
   }
-  const stateLength = (Object.entries(albums).length)
+
+  const stateLength = (Object.keys(albums).length)
     return (
       <div className="box-album-list">
         <h1 className="album-list-title">ALBUMS</h1>

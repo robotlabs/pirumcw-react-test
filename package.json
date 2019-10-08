@@ -2,6 +2,7 @@
   "name": "react-test",
   "version": "0.1.0",
   "private": true,
+  "homepage": ".",
   "dependencies": {
     "react": "^16.10.1",
     "react-dom": "^16.10.1",
@@ -32,6 +33,7 @@
     "d3-collection": "^1.0.7",
     "install": "^0.13.0",
     "npm": "^6.11.3",
+    "react-app-polyfill": "^1.0.4",
     "react-redux": "^7.1.1",
     "redux": "^4.0.4"
   }
